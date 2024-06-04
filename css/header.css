@@ -1,0 +1,66 @@
+/* header--------------- */
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+header .nav .left {
+    color: rgb(7, 33, 70);
+    margin-left: 20px;
+    font-size: small;
+    font-weight: 900;
+}
+header .nav .left i{
+    font-size: x-large;
+}
+header .nav .left span{
+    font-size: small;
+}
+header .nav .left p{
+    font-size: x-small;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+header .nav .right a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(1, 23, 53);
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: x-small;
+    margin-right: 20px;
+    font-weight: 600;
+}
+header .nav .right a:active{
+    scale: 0.8;
+}
+header .nav .right a:hover{
+    background-color: rgb(7, 33, 70);
+    color: white;
+}
+/* card products */
+header .nav .right .card{
+    background-color: rgb(7, 33, 70);
+    color: white;
+}
+header .nav .right .card:hover{
+    background-color: rgb(16, 52, 102);
+}
+/* card products span */
+.products-number{
+    position: absolute;
+    left: 0;
+    background-color: rgb(253, 16, 16);
+    padding: 3px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    color: white;
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+/* ----------------------------------*/
